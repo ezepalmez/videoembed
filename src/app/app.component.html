@@ -1,0 +1,132 @@
+<!--------------------mat-button-toggle-group [(value)]="selectedValue" #group="matButtonToggleGroup" multiple=true>
+  <mat-button-toggle *ngFor="let item of toggleOptions;" (change)="selectionChanged($event)" [value]="item">{{item}}
+  </mat-button-toggle>
+  <span class="badge">{{badgeCount}}</span>
+
+</mat-button-toggle-group>
+
+<div class="example-selected-value">Selected value: {{group.value}}</div------------->
+
+
+  <h1>Instructivos Agencia Digital</h1>
+  <div class="contenedor">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </div>
+  <br>
+
+  <div id="video-header">
+    <div id="content">
+      <div *ngFor="let video of videos">
+        <label>{{video.descripcion}}</label>
+        <iframe [src]="('https://www.youtube.com/embed/' + video.videoURL) | prueba"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!----------------div id="video-header">
+    <div id="content"------------------>
+      <!--button id="titulo-video">Lo que sea!!!</button-->
+      <!----------------------button id="btn-left" (click)="izquierda()"> <i class="material-icons">arrow_back_ios</i></button>
+      <iframe [src]='video2' frameborder="0" allowfullscreen></iframe>
+      <iframe [src]='video3' frameborder="0" allowfullscreen></iframe>
+      <iframe [src]='video1' frameborder="0" allowfullscreen></iframe>
+      <iframe [src]='video2' frameborder="0" allowfullscreen></iframe>
+      <iframe [src]='video3' frameborder="0" allowfullscreen></iframe>
+      <iframe [src]='video1' frameborder="0" allowfullscreen></iframe>
+      <iframe [src]='video2' frameborder="0" allowfullscreen></iframe>
+      <iframe [src]='video3' frameborder="0" allowfullscreen></iframe>
+      <iframe [src]='video2' frameborder="0" allowfullscreen></iframe>
+      <iframe [src]='video3' frameborder="0" allowfullscreen></iframe>
+      <iframe [src]='video1' frameborder="0" allowfullscreen></iframe>
+      <iframe [src]='video2' frameborder="0" allowfullscreen></iframe>
+      <iframe [src]='video3' frameborder="0" allowfullscreen></iframe>
+      <iframe [src]='video1' frameborder="0" allowfullscreen></iframe>
+      <iframe [src]='video2' frameborder="0" allowfullscreen></iframe>
+      <iframe [src]='video3' frameborder="0" allowfullscreen></iframe>
+      <button id="btn-rigth" (click)="derecha()"><i class="material-icons">arrow_forward_ios</i></button>
+    </div>
+  </div>
+</body---------------------->
+
+      
+      <!---------------mat-form-field appearance="fill">
+  <mat-label>Elegir tipo de Tramite</mat-label>
+  <mat-select [formControl]="tramiteControl">
+    <mat-optgroup *ngFor="let group of tramiteGroups" [label]="group.name"
+                  [disabled]="group.disabled">
+      <mat-option *ngFor="let tramite of group.tramite" [value]="tramite.value">
+        {{tramite.viewValue}}
+      </mat-option>
+    </mat-optgroup>
+  </mat-select>
+</mat-form-field--------------->
+
+      <!-----------------div class="container">
+        <div class="item" *ngFor="let video of videos"------------------>
+          <!--label>{{video.descripcion}}</label-->
+          <!----------------iframe [src]="('https://www.youtube.com/embed/' + video.videoURL) | prueba"></iframe>
+        </div>
+      </div------------------------>
+
+      <!-------------------select [(ngModel)]="selectedDevice" (change)="callFuncionBuscar($event)">
+  <option *ngFor="let i of array">{{i}}</option>
+</select>
+
+
+<table>
+  <tr *ngFor="let cmi of ccmig; let indice=index">
+    <td> 'CAMBIO DE CALIDAD MIGRATORIA' </td------------------------>
+      <!--td> {{indice+1}}</td-->
+      <!---------------------td>{{cmi.tipo}}</td>
+  </tr>
+
+  <tr *ngFor="let pdr of pdres">
+    <td> 'PRÓRROGA DE RESIDENCIA' </td>
+    <td>{{pdr.tipo}} </td>
+  </tr>
+
+  <tr *ngFor="let per of permi">
+    <td> 'PERMISOS' </td>
+    <td>{{per.tipo}} </td>
+  </tr>
+
+  <tr *ngFor="let sub of subsa">
+    <td> 'SUBSANACION' </td>
+    <td>{{sub.tipo}} </td>
+  </tr>
+
+  <tr *ngFor="let pte of patea">
+    <td> 'PAGO TAE' </td>
+    <td>{{pte.tipo}} </td>
+  </tr>
+
+  <tr *ngFor="let col of coeli">
+    <td> 'CONSULTAS EN LÍNEA' </td>
+    <td>{{col.tipo}} </td>
+  </tr>
+
+  <tr *ngFor="let con of const">
+    <td> 'CONSTANCIAS' </td>
+    <td>{{con.tipo}} </td>
+  </tr>
+
+  <tr *ngFor="let cil of cieli">
+    <td> 'CITAS EN LÍNEA' </td>
+    <td>{{cil.tipo}} </td>
+  </tr>
+
+  <tr *ngFor="let dup of dupli">
+    <td> 'DUPLICADOS' </td>
+    <td>{{dup.tipo}} </td>
+  </tr>
+
+  <tr *ngFor="let cer of certi">
+    <td> 'CERTIFICADOS' </td>
+    <td>{{cer.tipo}} </td>
+  </tr>
+
+  <tr *ngFor="let dpa of dpago">
+    <td> 'DEVOLUCIÓN DE PAGO' </td>
+    <td>{{dpa.tipo}} </td>
+  </tr>
+</table-------------------->

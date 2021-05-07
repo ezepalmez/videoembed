@@ -1,0 +1,119 @@
+.example-selected-value {
+    margin: 15px 0;
+  }
+
+  .spacer {
+    flex: 1 1 auto;
+  }
+  
+  .badge {
+    position: absolute;
+    top: 0px;
+    left: 30%;
+    padding: 3px 15px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+    font-size: 20px;
+  }
+  .badge:after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 12px;
+    margin-left: 30px;
+    width: 20px;
+    height: 0px;
+    border-top: 10px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-left: 20px solid red;
+  }
+/*................................*/  
+
+  iframe{
+    width: 200px;
+    height: 110px;
+    margin: 3px;
+    border: solid black 2px;
+    margin-top: 10px;
+}
+
+  #video-header {
+    height: 250px;
+    width: 100%;
+    overflow: auto;
+  }
+  
+  #content {
+    height: 200px;
+    width: 1900px;
+    background-color: rgb(201, 201, 201);
+    display: flex;
+    padding-top: 2%; 
+  }
+
+#video-header::-webkit-scrollbar{
+  display: none;
+}
+
+#titulo-video{
+  position: fixed;
+  height: 30px;
+  border: none;
+  color: black;
+  margin-top: -1.8%;
+  background-color: #c9c9c9; 
+  left: 1%;
+}
+
+#btn-left{
+  position: fixed;                       
+  right: auto;                           
+  bottom: 46.6%;                         
+  width: 30px;                           
+  height: 30px;                          
+  border-radius: 50%;                    
+  border: none;                          
+  background: rgb(255, 255, 255);        
+  color: black;                          
+  outline: none;                         
+  cursor: pointer;                       
+} 
+
+#btn-rigth{
+  position: fixed;                       
+  right: 1%;                             
+  bottom: 46.6%;                         
+  width: 30px;                           
+  height: 30px;                          
+  border-radius: 50%;                    
+  border: none;                          
+  background:rgb(255, 255, 255);         
+  color: black;                          
+  outline: none;                         
+  cursor: pointer;                       
+  }                                      
+
+#descripcion{
+  position: fixed;                       
+  right: auto;                           
+  bottom: 46.6%;                         
+  width: 30px;                           
+  height: 30px;                          
+  border-radius: 50%;                    
+  border: none;                          
+  background: rgb(255, 255, 255);        
+  color: black;                          
+  outline: none;                         
+  cursor: pointer;                       
+} 
+
+#btn-rigth:active{
+  background:rgb(252, 138, 138);
+}
+
+#btn-left:active{
+  background:rgb(252, 138, 138);
+}
+
+/******************************/
